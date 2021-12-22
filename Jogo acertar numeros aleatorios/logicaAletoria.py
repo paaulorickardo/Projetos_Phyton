@@ -23,9 +23,9 @@ while count < math.log(upper - lower + 1, 2):
        
        break
     elif x > guess:
-       print("Tente novamente! Você chutou muito alto!")
-    elif x < guess:
        print("Tente novamente! Você chutou muito baixo!")
+    elif x < guess:
+       print("Tente novamente! Você chutou muito alto!")
  
 if count >= math.log(upper - lower + 1, 2):
    print("\nO número é %d"%x)

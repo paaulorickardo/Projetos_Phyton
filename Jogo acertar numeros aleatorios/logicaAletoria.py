@@ -28,5 +28,5 @@ while count < math.log(upper - lower + 1, 2):
        print("Tente novamente! Você chutou muito alto!")
  
 if count >= math.log(upper - lower + 1, 2):
-   print("\nO número é %d"%x)
-   print("\tDesculpe, não foi dessa vez!")
+   print("\nO número é %d !" % x," Que pena :( Não foi dessa vez!")
+  

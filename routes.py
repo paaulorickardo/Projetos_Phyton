@@ -15,7 +15,7 @@ def cadastraUsuario():
     body = request.get_json()
 
     if ("nome" not in body):
-        return {"status": 400, "mensagem": "O parametro é obrigatorio"}
+        return geraResponse(400, "O parametro é obrigatorio")
 
     usuario = insertUsuario(body["nome"], body["email"], body["senha"])
 
